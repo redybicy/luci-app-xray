@@ -21,7 +21,7 @@ jobs:
           - id: 24.10
             arch: aarch64_cortex-a53
             sdk_url_path: https://downloads.openwrt.org/releases/24.10.4/targets/mediatek/filogic
-            sdk_name: -sdk-24.10.5-mediatek-filogic_
+            sdk_name: -sdk-24.10.4-mediatek-filogic_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
